@@ -1,0 +1,136 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+#cont{
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+}
+nav{
+    background-color: aqua;
+    height: 100vh;
+    width: 15%;
+    margin: 0%;
+    padding: 0%;
+    position: absolute;
+}
+a:hover{
+    color: white;
+    background-color: grey;
+}
+/* ul{
+    background-color: black
+} */
+#menu{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+}
+#morn{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position: absolute;
+    top:0%;
+    left: 100%;
+}
+#drop:hover #menu{
+    display: block;
+    background-color: grey;
+}
+#nveg:hover #morn{
+    display: block;
+    background-color: grey;
+}
+#poha{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+}
+#lassi{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+}
+#up{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+}
+#sakal:hover #poha{
+    display: block;
+    background-color: grey;
+}
+#after:hover #lassi{
+    display: block;
+    background-color: grey;
+}
+#ratra:hover #up{
+    display: block;
+    background-color: grey;
+}
+#pin{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+}
+#apple{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position:absolute;
+    top: 0%;
+    left: 100%;
+}
+#orange{
+    list-style-type: none;
+    display: none;
+    padding: 0%;
+    margin: 0%;
+    position:absolute ;
+    top: 0%;
+    left: 100%;
+}
+#day:hover #pin{
+    display: block;
+    background-color: grey;
+}
+#noon:hover #apple{
+    display: block;
+    background-color: grey;
+}
+#night:hover #orange{
+    display: block;
+    background-color: grey;
+}
+
