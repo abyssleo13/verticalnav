@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+nav{
+    background-color: aqua;
+    width: 10%;
+    height: 100vh;
+}
+#cont{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+/* below li drop down
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: honeydew;
+    position: relative;
+    display: no;
+}
+#drop:hover #menu{
+    display: block;
+}
+#down{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: honeydew;
+    position: relative;
+    display: no;
+}
+#up:hover #down{
+    display: block;
+} */
+
+/* right side dropdown */
+#menu{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: aqua;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#drop{
+    position: relative;
+}
+#drop:hover #menu{
+    display: block;
+}
+#iphone-menu{
+    background-color: aqua;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0%;
+    left: 100%;
+    display: none;
+}
+#iphone-drop{
+    position: relative;
+}
+#iphon-drop:hover #iphone-menu{
+    display: display;
+}
